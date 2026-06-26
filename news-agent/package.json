@@ -1,0 +1,16 @@
+{
+  "name": "it-news-agent",
+  "version": "1.0.0",
+  "description": "Daily IT news email agent powered by Claude AI",
+  "type": "module",
+  "scripts": {
+    "start": "node scheduler.js",
+    "send-now": "node run.js"
+  },
+  "dependencies": {
+    "@google/genai": "^2.10.0",
+    "dotenv": "^16.4.0",
+    "node-cron": "^3.0.3",
+    "resend": "^4.0.0"
+  }
+}
