@@ -1,0 +1,17 @@
+{
+  "name": "simple-mcp-server",
+  "version": "1.0.0",
+  "description": "A simple MCP server for learning purposes",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.0.1",
+    "typescript": "^6.0.3"
+  }
+}
